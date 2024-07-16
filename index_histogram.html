@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Histogram with Normal Curve (D3.js)</title>
+    <style>
+        .axis-label {
+            font-size: 12px;
+        }
+
+        .bar {
+            fill: steelblue;
+        }
+
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 2px;
+        }
+
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 6px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0.5px solid steelblue;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Histogram with Normal Curve</h1>
+    <div id="chart"></div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script_histogram.js"></script>
+</body>
+</html>
